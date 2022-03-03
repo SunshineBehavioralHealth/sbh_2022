@@ -1,0 +1,82 @@
+.mobile-author-and-review {
+    p {
+        margin-bottom: 0;
+        font-size: 14px;
+        @media (max-width: 355px) {
+            font-size: 12px;
+        }
+    }
+    .row {
+        padding: 0 20px;
+        @media (max-width: 355px) {
+            flex-direction: column;
+        }
+        .col-xs-6 {
+            @media (max-width: 500px) {
+                flex-basis: 100%;
+                max-width: 100%;
+            }
+        }
+    }
+    &--avatar {
+        border-radius: 99px;
+        height: 100px;
+        max-width: 100px;
+        img {
+            border-radius: 99px;
+            height: 100px;
+            max-width: 100px;
+            margin-right: 10px;
+        }
+    }
+    &--date-title,
+    &--job-title {
+        color: #000;
+        font-weight: 600;
+    }
+    &--date {
+        color: #585858;
+        font-weight: 600;
+    }
+    &--name {
+        color: $secondaryColor;
+        font-weight: 600;
+    }
+    &--review {
+        &--content{
+            @media(max-width: 500px){
+                justify-content: center;
+            }
+        }
+        &:before {
+            @media (min-width: 501px) {
+                content: "";
+                height: 100px;
+                background-color: #cdcdcd;
+                width: 2px;
+                position: absolute;
+                right: 100%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+    &--author {
+        .avatar {
+            @media (max-width: 625px) {
+                display: none;
+            }
+        }
+        @media (max-width: 500px) {
+            &--content{
+                display: flex;
+                width: 100%;
+                justify-content: center;
+            }
+            &--edited{
+                margin-right: 10px;
+                margin-left: -10px;
+            }
+        }
+    }
+}

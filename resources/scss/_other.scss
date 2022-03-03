@@ -1,0 +1,259 @@
+.comments-area,
+.entry-content > *,
+.entry-footer,
+.entry-header,
+.entry-summary > *,
+.page-content > *,
+.page-header,
+.page-navigation,
+.post-navigation,
+.site-info {
+  max-width: 100%;
+}
+
+.entry-header a {
+  color: var(--secondary_color);
+}
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+  color: #ccc;
+  content: '"';
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+}
+
+.page_404 {
+  text-align: center;
+}
+
+.page_404 ul {
+  list-style: none;
+  padding: 0;
+}
+
+.custom-logo-link {
+  display: inline-block;
+  margin: 0 auto 1em;
+}
+
+.site-branding {
+  text-align: center;
+  padding: 60px 0 1.75em;
+}
+
+.site-title a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.site-description {
+  margin: 0.4375em 0 0;
+  font-size: 17px;
+  font-weight: inherit;
+  line-height: 1.4;
+  word-wrap: break-word;
+  color: #757575;
+}
+
+.banner_top_image {
+  min-height: 350px;
+  width: 100%;
+  background-position: 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+@media screen and (min-width: 48em) {
+  .site-main .comment-navigation,
+  .site-main .pagination,
+  .site-main .post-navigation,
+  .site-main .posts-navigation {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .banner_top_image {
+    min-height: 350px;
+  }
+}
+
+.banner_top_image label {
+  color: #000;
+}
+
+.site-info {
+  text-align: center;
+}
+
+.section_padding_top {
+  padding-top: 35px;
+}
+
+.width_restriction {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.short_code_video_cta {
+  display: flex;
+  justify-content: center;
+}
+
+.shortcode_spacer {
+  margin: 50px 0;
+}
+
+.widget {
+  margin-bottom: 15px;
+}
+
+.shortcode_section {
+  margin: 25px 0;
+}
+
+.blog_collection h1 {
+  text-align: center;
+  color: var(--secondary_color);
+}
+
+.healing_section {
+  margin: 0 !important;
+}
+
+.legit_script_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Search style overwrites
+
+.navigation_wrapper #ajaxsearchlite1 .probox,
+.navigation_wrapper div.asl_w .probox {
+  background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+  box-shadow: 0 0 0 0 #b5b5b5 inset;
+}
+
+@media (max-width: 768px) {
+  .promagnifier {
+    display: none !important;
+  }
+
+  div.asl_r.vertical {
+    left: 20% !important;
+  }
+}
+
+// Michelle extra stuff
+
+.download_page_content_btn {
+  max-width: 320px;
+}
+
+.a-b-test {
+  display: none;
+}
+
+@media screen and (max-width: 750px) {
+  .hero_banner_container {
+    height: 300px;
+  }
+}
+
+div#medical_review_avatar_reference {
+  width: 120px;
+}
+
+.toc_dropdown {
+  width: 50px;
+}
+
+@media screen and (max-width: 750px) {
+  .medical_review_wrapper {
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .nav_top_container {
+    height: 55px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  nav ul .four-columns ul li {
+    width: 23%;
+  }
+
+  nav ul .four-columns ul li ul li {
+    width: 100%;
+  }
+}
+
+.top--content--border-content {
+  width: 100% !important;
+}
+
+.top--content.absolute {
+  left: auto;
+}
+
+section.border-content-on-image-cta.float-right-desktop-only {
+  margin: 15px;
+}
+.top--content--below-border-content.flex.flex-column.justify-center.align-center {
+  width: 70%;
+}
+
+.border-content-on-image-cta .top--content--below-border-content a,
+.border-content-on-image-cta .top--content--below-border-content p {
+  font-size: 14px;
+  padding-top: 5px;
+  text-shadow: 1px 1px 1px grey;
+}
+
+.list_and_cta_bottom_cta_wrapper {
+  margin: auto;
+  max-width: 250px;
+}
+
+@media (min-width: 1024px) {
+  .centers_cards_carousel .centers_cards_indv_card_wrapper {
+    width: 15%;
+  }
+}
+.centers_cards_carousel {
+  max-width: 100%;
+}
+
+p.centers_cards_indv_card_paragraph {
+  font-size: 13px;
+}
+
+.centers_cards_indv_card h4 {
+  font-size: 18px;
+}
+.centers_cards_indv_card img {
+  width: auto;
+}
+
+.centers_cards_carousel_image_glide  li.glide__slide {
+  width: 200px;
+}
+
+h5.centers_cards_indv_card_subheadline {
+  font-size: 15px;
+}
